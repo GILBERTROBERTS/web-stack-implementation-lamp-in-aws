@@ -17,3 +17,4 @@ A technology stack is a set of frameworks and tools used to develop a software p
 **WARNING:** Most of the things you will be doing at the early days may not mean a lot to you. Sometimes it may seem like you are just copying and pasting. That is absolutely fine. We want some concepts to begin to register in your sub-conscious mind, and without you realising it, you are building up skills. although, there are certain traps that will require you to troubleshoot along the way. So watch out for them in all your project implementations.
 
 In order to complete this project you will need an AWS account and a virtual server with Ubuntu Server OS.
+[AWS](https://aws.amazon.com/) is the biggest Cloud Service Provider and it offers a free tier account that we are going to leverage for our projects.
