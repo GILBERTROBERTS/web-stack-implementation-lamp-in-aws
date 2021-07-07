@@ -9,7 +9,9 @@ As you kick off your career in DevOps, you will soon realise that everything you
 ## what is a technoloy stack?
 
 A technology stack is a set of frameworks and tools used to develop a software product. This set of frameworks and tools are very specifically chosen to work together in creating a well-functioning software. They are acronymns for individual technologies used together for a specific technology product. some examples are…
-- LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)
-- LEMP (Linux, Nginx, MySQL, PHP or Python, or Perl)
-- MERN (MongoDB, ExpressJS, ReactJS, NodeJS)
-- MEAN (MongoDB, ExpressJS, AngularJS, NodeJS
+- **LAMP** (Linux, Apache, MySQL, PHP or Python, or Perl)
+- **LEMP** (Linux, Nginx, MySQL, PHP or Python, or Perl)
+- **MERN** (MongoDB, ExpressJS, ReactJS, NodeJS)
+- **MEAN** (MongoDB, ExpressJS, AngularJS, NodeJS
+
+WARNING: Most of the things you will be doing at the early days may not mean a lot to you. Sometimes it may seem like you are just copying and pasting. That is absolutely fine. We want some concepts to begin to register in your sub-conscious mind, and without you realising it, you are building up skills. although, there are certain traps that will require you to troubleshoot along the way. So watch out for them in all your project implementations.
