@@ -30,4 +30,5 @@ You can either Watch the videos below to get yourself set up.
 Or follow the instructions below.
 - Register a new AWS account following this [instruction](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/).
 ![](./images/pic1.png)
+- Select your preferred region (the closest to you) and launch a new EC2 instance of t2.micro family with Ubuntu Server 20.04 LTS (HVM)
 
