@@ -18,3 +18,8 @@ A technology stack is a set of frameworks and tools used to develop a software p
 
 In order to complete this project you will need an AWS account and a virtual server with Ubuntu Server OS.
 [AWS](https://aws.amazon.com/) is the biggest Cloud Service Provider and it offers a free tier account that we are going to leverage for our projects.
+Do not focus too much on AWS itself right now, there will be a proper Cloud introduction and configuration projects later in our projects.
+
+Right now, all we need to know is that AWS can provide us with a free virtual server called [EC2 Elastic Compute Cloud](https://aws.amazon.com/ec2/features/) for our needs.
+
+
