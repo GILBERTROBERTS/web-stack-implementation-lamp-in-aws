@@ -21,5 +21,8 @@ In order to complete this project you will need an AWS account and a virtual ser
 Do not focus too much on AWS itself right now, there will be a proper Cloud introduction and configuration projects later in our projects.
 
 Right now, all we need to know is that AWS can provide us with a free virtual server called [EC2 Elastic Compute Cloud](https://aws.amazon.com/ec2/features/) for our needs.
+Spinning up a new EC2 instance (an instance of a virtual server) is only a matter of a few clicks.
 
-
+You can either Watch the videos below to get yourself set up.
+- [AWS account setup and Provisioning an Ubuntu Server](https://www.youtube.com/watch?v=xxKuB9kJoYM&list=PLtPuNR8I4TvkwU7Zu0l0G_uwtSUXLckvh&index=6)
+- [Connecting to your EC2 Instance](https://www.youtube.com/watch?v=TxT6PNJts-s&list=PLtPuNR8I4TvkwU7Zu0l0G_uwtSUXLckvh&index=7)
