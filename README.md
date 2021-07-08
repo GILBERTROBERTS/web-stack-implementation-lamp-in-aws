@@ -32,5 +32,7 @@ Or follow the instructions below.
 ![](./images/pic1.png)
 - Select your preferred region (the closest to you) and launch a new EC2 instance of t2.micro family with Ubuntu Server 20.04 LTS (HVM)
 ![](./images/Pic2.png)
+![](./images/GIF1.gif)
+
 
 
