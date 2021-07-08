@@ -225,7 +225,14 @@ To install these 3 packages at once, run:
 
 $ sudo apt install php libapache2-mod-php php-mysql
 
-![](./image/pic14.png)
+![](./images/pic14.png)
+
+Once the installation is finished, you can run the following command to confirm your PHP version:
+php -v
+
+![](./images/pic15.png)
+
+
 
 
 
