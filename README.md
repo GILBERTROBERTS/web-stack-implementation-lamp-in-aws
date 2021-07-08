@@ -59,5 +59,25 @@ Copy EC2 Public IP address
 ![](./images/gif3.gif)
 
 
+Connect to EC2 via Putty
+(**Macbook**) Connecting to EC2 using the terminal
+- The terminal is already installed by default. You just need to open it up.
+- You do not need to convert to a .ppk file. Just use the same key as downloaded from AWS.
+- Change directory into the loacation where your PEM file is. Most likely will be in the Downloads folder
+cd ~/Downloads
+
+**IMPORTANT** - Anywhere you see these anchor tags **< >** , going forward, it means you will need to replace the content in there with values specific to your situation. For example, if we need you to replace the name you have saved the private key on your machine, we will write something like **< private-key-name >**.
+f the private key you downloaded was named **my-private-key.pem** simply remove the anchor tags and insert **my-private-key.pem** in the command you are required to execute. Lets try this and follow the instructions below to get some work done.
+
+- Change premissions for the private key file (.pem), otherwise you can get an error “Bad permissions”
+sudo chmod 0400 <private-key-name>.pem
+- Connect to the instance by running
+ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>
+
+Congratulations! You have just created your very first Linux Server in the Cloud and our set up looks like this now: (You are the client)
+
+![](./images/pic4.png)
+
+Connect to EC2 via SSH
 
 
