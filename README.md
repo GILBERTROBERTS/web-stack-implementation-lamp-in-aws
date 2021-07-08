@@ -93,4 +93,6 @@ Let us move on and configure our EC2 machine to serve a Web server!
 
 The Apache web server is among the most popular web servers in the world. It’s well documented, has an active community of users, and has been in wide use for much of the history of the web, which makes it a great default choice for hosting a website.
 
+Install Apache using Ubuntu’s package manager [‘apt’](https://en.wikipedia.org/wiki/APT_(software)):
+
 
