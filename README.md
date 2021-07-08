@@ -99,10 +99,16 @@ Install Apache using Ubuntu’s package manager [‘apt’](https://en.wikipedi
 sudo apt update
 ![](./images/pic6.png)
 
-- run apache2 package installation
+- run apache2 package installation:
 sudo apt install apache2
 
 ![](./images/pic7.png)
+
+To verify that apache2 is running as a Service in our OS, use following command:
+sudo systemctl status apache2
+If it is green and running, then you did everything correctly - you have just launched your first Web Server in the Clouds!
+![](./images/pic8.png)
+
 
 
 
