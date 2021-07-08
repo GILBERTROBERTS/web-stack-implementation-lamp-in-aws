@@ -162,3 +162,30 @@ When prompted, confirm installation by typing Y, and then ENTER.
 
 When the installation is finished, it’s recommended that you run a security script that comes pre-installed with MySQL. This script will remove some insecure default settings and lock down access to your database system. Start the interactive script by running:
 
+sudo mysql_secure_installation
+
+![](./images/pic12.png)
+
+This will ask if you want to configure the VALIDATE PASSWORD PLUGIN.
+
+**Note:** Enabling this feature is something of a judgment call. If enabled, passwords which don’t match the specified criteria will be rejected by MySQL with an error. It is safe to leave validation disabled, but you should always use strong, unique passwords for database credentials.
+
+Answer Y for yes, or anything else to continue without enabling.
+VALIDATE PASSWORD PLUGIN can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+
+Press y|Y for Yes, any other key for No:
+If you answer “yes”, you’ll be asked to select a level of password validation. Keep in mind that if you enter 2 for the strongest level, you will receive errors when attempting to set any password which does not contain numbers, upper and lowercase letters, and special characters, or which is based on common dictionary words.
+
+There are three levels of password validation policy:
+
+LOW    Length >= 8
+
+MEDIUM Length >= 8, numeric, mixed case, and special characters
+
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary file
+
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
+
