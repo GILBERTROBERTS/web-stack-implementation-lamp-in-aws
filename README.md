@@ -119,3 +119,9 @@ Open inbound port 80
 
 Our server is running and we can access it locally and from the Internet (Source 0.0.0.0/0 means ‘from any IP address’).
 
+First, let us try to check how we can access it locally in our Ubuntu shell, run:
+
+ curl http://localhost:80
+ ![](./images/pic9.png)
+
+
