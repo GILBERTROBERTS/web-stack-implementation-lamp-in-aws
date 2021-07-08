@@ -34,5 +34,6 @@ Or follow the instructions below.
 ![](./images/Pic2.png)
 ![](./images/GIF1.gif)
 
+***IMPORTANT*** - save your private key (.pem file) securely and do not share it with anyone! If you lose it, you will not be able to connect to your server ever again!
 
 
