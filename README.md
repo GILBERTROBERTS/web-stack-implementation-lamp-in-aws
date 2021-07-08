@@ -98,4 +98,7 @@ Install Apache using Ubuntu’s package manager [‘apt’](https://en.wikipedi
 sudo apt update
 ![](./images/pic6.png)
 
+**run apache2 package installation**
+sudo apt install apache2
+![](./images/pic7.png)
 
