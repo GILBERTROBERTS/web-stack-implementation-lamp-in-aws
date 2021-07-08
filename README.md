@@ -95,14 +95,14 @@ The Apache web server is among the most popular web servers in the world. It’s
 
 Install Apache using Ubuntu’s package manager [‘apt’](https://en.wikipedia.org/wiki/APT_(software)):
 
-**update a list of packages in package manager**
-
+- update a list of packages in package manager:
 sudo apt update
 ![](./images/pic6.png)
 
-**run apache2 package installation**
-
+- run apache2 package installation
 sudo apt install apache2
 
 ![](./images/pic7.png)
+
+
 
