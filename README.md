@@ -43,3 +43,6 @@ The process to connect to the virtual server is different between Windows and Ma
 
 **(Windows)** - Connecting to EC2 using Putty.
 
+Remember the private key your downloaded from AWS while provisioning the server? It is a PEM file format. You can open it up to see the content and have a glimpse of what a PEM file looks like. Since Putty does not support .pem files - we must convert our private key (PEM format) into another file format called .ppk. We will need another tool to do that - using [PuttyGen](https://www.puttygen.com/)
+![](./images/gif2.gif)
+
