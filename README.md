@@ -38,3 +38,8 @@ Or follow the instructions below.
 - For Windows users, you will need a tool called putty to connect to your EC2 Instance. Download Putty [Here](https://www.putty.org/).
 - For Mac users, you can simply open up Terminal and use the ssh command to get into the server.
 
+**IMPORTANT NOTICE** - Both Putty and ssh use the SSH protocol to establish connectivity between computers. It is the most secure protocol because it uses crypto algorithms to encrypt the data that is transmitted - it uses TCP port 22 which is open for all newly created EC2 intances in AWS by default. Most of these terminologies will make more sense to you as you proceed. So for now, if nothing makes sense, just ignore. But be assured that the information is already registered in your sub-conscious mind. So it will become useful to you soon.
+The process to connect to the virtual server is different between Windows and Mac. So lets take a quick tour.
+
+**(Windows)** - Connecting to EC2 using Putty.
+
