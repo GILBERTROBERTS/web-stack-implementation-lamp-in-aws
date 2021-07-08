@@ -133,7 +133,7 @@ As an output you can see some strangely formatted test, do not worry, we just ma
 
 Now it is time for us to test how our Apache HTTP server can respond to requests from the Internet. Open a web browser of your choice and try to access following url
 
-http://<your public address>:80 
+http://**your public address**:80 
 If you see following page, then your web server is now correctly installed and accessible through your firewall.
 
 ![](./images/pic10.png)
