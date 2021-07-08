@@ -182,7 +182,9 @@ If you answer “yes”, you’ll be asked to select a level of password validat
 There are three levels of password validation policy:
 
 LOW    Length >= 8
+
 MEDIUM Length >= 8, numeric, mixed case, and special characters
+
 STRONG Length >= 8, numeric, mixed case, special characters and dictionary file
 
 Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
@@ -192,8 +194,24 @@ Regardless of whether you chose to set up the VALIDATE PASSWORD PLUGIN, your 
 If you enabled password validation, you’ll be shown the password strength for the root password you just entered and your server will ask if you want to continue with that password. If you are happy with your current password, enter Y for “yes” at the prompt:
 
 Estimated strength of the password: 100 
+
 Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
 
 For the rest of the questions, press Y and hit the ENTER key at each prompt. This will remove some anonymous users and the test database, disable remote root logins, and load these new rules so that MySQL immediately respects the changes you have made.
 
 When you’re finished, test if you’re able to log in to the MySQL console by typing:
+
+$ sudo mysql
+
+This will connect to the MySQL server as the administrative database user root, which is inferred by the use of sudo when running this command. You should see output like this:
+
+![](./images/pic13.png)
+
+To exit the MySQL console, type:
+mysql> exit
+
+Notice that you didn’t need to provide a password to connect as the **root** user, even though you have defined one when running the mysql_secure_installation script. That is because the default authentication method for the administrative MySQL user is unix_socket instead of password. Even though this might look like a security concern at first, it makes the database server more secure because the only users allowed to log in as the **root** MySQL user are the system users with sudo privileges connecting from the console or through an application running with the same privileges. In practical terms, that means you won’t be able to use the administrative database **root** user to connect from your PHP application. Setting a password for the **root** MySQL account works as a safeguard, in case the default authentication method is changed from unix_socket to password.
+
+For increased security, it’s best to have dedicated user accounts with less expansive privileges set up for every database, especially if you plan on having multiple databases hosted on your server.
+
+
