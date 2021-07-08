@@ -281,4 +281,26 @@ $ sudo ls /etc/apache2/sites-available
 
 With this VirtualHost configuration, we’re telling Apache to serve projectlamp using /var/www/projectlampl as its web root directory. If you would like to test Apache without a domain name, you can remove or comment out the options ServerName and ServerAlias by adding a # character in the beginning of each option’s lines. Adding the # character there will tell the program to skip processing the instructions on those lines.
 
+You can now use a2ensite command to enable the new virtual host:
 
+$ sudo a2ensite projectlamp
+
+![](./images/pic20.png)
+
+You might want to disable the default website that comes installed with Apache. This is required if you’re not using a custom domain name, because in this case Apache’s default configuration would overwrite your virtual host. To disable Apache’s default website use a2dissite command , type:
+
+$ sudo a2dissite 000-default
+
+![](./images/pic21.png)
+
+To make sure your configuration file doesn’t contain syntax errors, run:
+
+$ sudo apache2ctl configtest
+
+![](./images/pic22.png)
+
+Finally, reload Apache so these changes take effect:
+
+$ sudo systemctl reload apache2
+
+Your new website is now active, but the web root /var/www/projectlamp is still empty. Create an index.html file in that location so that we can test that the virtual host works as expected:
