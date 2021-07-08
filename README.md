@@ -106,9 +106,13 @@ sudo apt install apache2
 
 To verify that apache2 is running as a Service in our OS, use following command:
 sudo systemctl status apache2
+
 If it is green and running, then you did everything correctly - you have just launched your first Web Server in the Clouds!
 ![](./images/pic8.png)
 
+Before we can receive any traffic by our Web Server, we need to open TCP port 80 which is the default port that web browsers use to access web pages on the Internet.
 
+As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add a rule to EC2 configuration to open inbound connection through port 80:
+![](./images/gif4.gif)
 
 
