@@ -232,7 +232,13 @@ php -v
 
 ![](./images/pic15.png)
 
+At this point, your LAMP stack is completely installed and fully operational.
+- **L**inux (Ubuntu)
+- **A**pache HTTP Server
+- **M**ySQL
+- **P**HP
 
+To test your setup with a PHP script, it’s best to set up a proper [Apache Virtual Host](https://httpd.apache.org/docs/2.4/vhosts/) to hold your website’s files and folders. Virtual host allows you to have multiple websites located on a single machine and users of the websites will not even notice it.
 
 
 
