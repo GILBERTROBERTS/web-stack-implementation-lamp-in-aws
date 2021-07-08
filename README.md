@@ -46,3 +46,18 @@ The process to connect to the virtual server is different between Windows and Ma
 Remember the private key your downloaded from AWS while provisioning the server? It is a PEM file format. You can open it up to see the content and have a glimpse of what a PEM file looks like. Since Putty does not support .pem files - we must convert our private key (PEM format) into another file format called .ppk. We will need another tool to do that - using [PuttyGen](https://www.puttygen.com/)
 ![](./images/gif2.gif)
 
+Once the conversion is complete and we have our .ppk file that Putty supports, we have everything we need to connect to our EC2 instance. Here is our checklist below.
+- Public IP address
+- ‘ubuntu’ as user
+- .ppk private key file
+
+**Retrieve the Public IP address to your instance.**
+![](./images/pic3.png)
+
+Copy EC2 Public IP address
+**Paste the public IP, load the private key and connect.**
+![](./images/gif3.gif)
+
+
+
+
