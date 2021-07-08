@@ -218,4 +218,14 @@ For increased security, it’s best to have dedicated user accounts with less ex
 
 Your MySQL server is now installed and secured. Next, we will install PHP, the final component in the LAMP stack.
 
+##### Installing PHP
+You have Apache installed to serve your content and MySQL installed to store and manage your data. [PHP](https://www.php.net/) is the component of our setup that will process code to display dynamic content to the end user. In addition to the php package, you’ll need php-mysql, a PHP module that allows PHP to communicate with MySQL-based databases. You’ll also need libapache2-mod-php to enable Apache to handle PHP files. Core PHP packages will automatically be installed as dependencies.
+
+To install these 3 packages at once, run:
+
+$ sudo apt install php libapache2-mod-php php-mysql
+
+![](./image/pic14.png)
+
+
 
