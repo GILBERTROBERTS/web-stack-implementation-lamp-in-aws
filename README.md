@@ -324,7 +324,7 @@ With the default DirectoryIndex settings on Apache, a file named index.html 
 In case you want to change this behavior, you’ll need to edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex directive:
 sudo vim /etc/apache2/mods-enabled/dir.conf
 
-![](./image/pic24.png)
+![](./images/pic24.png)
 
 After saving and closing the file, you will need to reload Apache so the changes take effect:
 
