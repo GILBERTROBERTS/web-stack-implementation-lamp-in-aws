@@ -345,7 +345,7 @@ phpinfo();
 
 When you are finished, save and close the file, refresh the page and you will see a page similar to this:
 
-
+![](./images/pic25.png)
 
 This page provides information about your server from the perspective of PHP. It is useful for debugging and to ensure that your settings are being applied correctly.
 
