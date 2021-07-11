@@ -353,6 +353,7 @@ If you can see this page in your browser, then your PHP installation is working 
 
 After checking the relevant information about your PHP server through that page, it’s best to remove the file you created as it contains sensitive information about your PHP environment -and your Ubuntu server. You can use rm to do so:
 
+
 sudo rm /var/www/projectlamp/index.php
 
 You can always recreate this page if you need to access the information again later.
